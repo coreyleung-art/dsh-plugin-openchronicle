@@ -1,0 +1,6 @@
+# dsh-plugin-openchronicle · 感知记忆层（OpenChronicle 吸收 X3 混合方案）
+# 通过 bundle 的 dsh.bundle.patch 插入宿主行，随 profile 启动常驻
+- insert:
+    - id: openchronicle
+      name: dsh-plugin-openchronicle
+      config: {}

@@ -1,5 +1,10 @@
 # Changelog · dsh-plugin-openchronicle
 
+## [0.1.1] - 2026-08-28
+
+### 修复
+- 补全 peerDependencies（dsh-tools/cordis），修复 CLD 启动崩溃
+
 ## [0.1.0] - 2026-08-28
 
 ### 首版：感知记忆层（OpenChronicle 吸收 X3 混合方案）

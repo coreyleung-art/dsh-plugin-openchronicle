@@ -1,6 +1,6 @@
-# dsh-plugin-openchronicle · 感知记忆层（OpenChronicle 吸收 X3 混合方案）
-# 通过 bundle 的 dsh.bundle.patch 插入宿主行，随 profile 启动常驻
-- insert:
-    - id: openchronicle
-      name: dsh-plugin-openchronicle
-      config: {}
+# dsh-plugin-openchronicle · 感知记忆层 — ⚠️ 2026-08-28 已禁用
+# 原因：defineTool 调用为旧版 API（handler+无 output），与运行库 dsh-tools rc.6
+# （execute + output.render 必填）不兼容 → 启动 TypeError 崩 server。
+# 恢复：7 处 defineTool 移植到 rc.6 API 后，恢复下方 insert 数组即可。
+# 备份：cordis.patch.yml.bak-disabled
+[]
