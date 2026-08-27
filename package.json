@@ -1,0 +1,25 @@
+{
+  "name": "dsh-plugin-openchronicle",
+  "description": "感知记忆层：调 Swift mac-ax-helper 捕获屏幕/应用上下文 → JSON 记忆 → 检索工具（OpenChronicle 吸收 X3 混合方案）",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
