@@ -1,5 +1,10 @@
 # Changelog · dsh-plugin-openchronicle
 
+## [0.1.2] - 2026-08-28
+
+### 修复
+- defineTool API 对齐 rc.6（output+execute+ctx.tools.register），修复启动崩
+
 ## [0.1.1] - 2026-08-28
 
 ### 修复
